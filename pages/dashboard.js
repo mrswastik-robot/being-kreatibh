@@ -72,7 +72,7 @@ export default function Dashboard() {
           );
         })}
       </div>
-      <button onClick={() => auth.signOut()}>Sign Out</button>
+      <button onClick={() => auth.signOut()} className="font-medium bg-cyan-500 text-white py-2 px-4 rounded-lg textx-sm">Sign Out</button>
     </div>
   );
 }
