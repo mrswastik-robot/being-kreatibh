@@ -23,7 +23,7 @@ function Nav()
                 {user && (
                     <div className="flex items-center gap-6">
                         <Link href="/post">
-                            <button className="font-medium bg-cyan-500 text-white py-2 px-4 rounded-mg textx-sm">
+                            <button className="font-medium bg-cyan-500 text-white py-2 px-4 rounded-lg textx-sm">
                                 Post
                             </button>
                         </Link>
